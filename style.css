@@ -92,10 +92,12 @@ form input {
   outline: none;
   padding-left: 10px;
   font-size: 1.5em;
+  transition: transform 0.3s ease-in-out;
 }
 
 form input:focus {
   border: 2px solid blue;
+  transform: scale(1.03);
 }
 
 form input:invalid {
@@ -126,4 +128,12 @@ a {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.error {
+  border-color: red;
+}
+
+.success {
+  border-color: green;
 }

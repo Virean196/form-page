@@ -34,11 +34,11 @@
         </div>
         <div class="form-group">
           <label for="password">Password</label>
-          <input type="password" name="password" value="">
+          <input id="password-field" type="password" name="password" value="">
         </div>
         <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" name="email" value="">
+          <input id="email-field" type="email" name="email" value="">
         </div>
         <div class="form-group">
           <label for="phone_number">Phone Number</label>
@@ -46,18 +46,18 @@
         </div>
         <div class="form-group">
           <label for="confirm_password">Confirm Password</label>
-          <input type="password" name="confirm_password" value="">
+          <input id="confirm-password-field" type="password" name="confirm_password" value="">
         </div>
       </form>
+      <button onclick="checkPasswordsMatch()" value="">test</button>
       <div class="button-container">
-        <input type="button" name="submit_button" value="Submit!">
+        <input id="submit-button" type="button" name="submit_button" value="Submit!">
       </div>
     </div>
     <footer>
-
     </footer>
   </div>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
