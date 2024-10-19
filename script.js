@@ -9,13 +9,14 @@ function checkPasswordsMatch() {
     // confirm_password_field.style.borderColor = "red";
     password_field.classList.add("error");
     confirm_password_field.classList.add("error");
+    password_field.classList.remove("success");
+    confirm_password_field.classList.remove("success");
   }
   else {
     password_field.classList.remove("error");
     confirm_password_field.classList.remove("error");
     password_field.classList.add("success");
     confirm_password_field.classList.add("success");
-
   }
 }
 
